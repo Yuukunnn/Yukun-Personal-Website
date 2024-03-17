@@ -1,0 +1,40 @@
+body {
+    background-color: white
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: rgb(251, 240, 226);
+    text-align:center;
+    padding: 2% 0;
+    margin: 2% 5%;
+    color: black;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+h1 {
+
+    font-style:italic
+    
+}
+
+h3 {
+
+}
+
+p {
+
+
+}
