@@ -26,15 +26,55 @@ a:focus {
 
 h1 {
 
-    font-style:italic
-    
+    font-style:italic;
+    text-align: center;
 }
 
-h3 {
-
+h2 {
+    margin: 3%
 }
 
 p {
 
 
+}
+
+.HomePageLayout {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%
+}
+
+.HomeText {
+    width: 70%;
+}
+
+.Project1Layout {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+.project1text {
+    width: 65%;
+}
+
+.Project2Layout {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+.project2text {
+    width: 60%;
+}
+
+.Project3Layout {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+.project3text {
+    width: 60%;
 }
