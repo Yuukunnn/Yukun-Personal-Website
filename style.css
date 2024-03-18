@@ -34,10 +34,6 @@ h2 {
     margin: 3%
 }
 
-p {
-
-
-}
 
 .HomePageLayout {
     display: flex;
@@ -47,6 +43,12 @@ p {
 
 .HomeText {
     width: 70%;
+}
+
+.WelcomeStyle {
+    text-indent: 2cap;
+    font-style:italic
+
 }
 
 .Project1Layout {
@@ -77,4 +79,30 @@ p {
 
 .project3text {
     width: 60%;
+}
+
+.AboutPageColor{
+    background-color: rgb(251, 240, 226);
+}
+
+
+.AboutPageLayout {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid white;
+    margin: 4%;
+
+}
+
+.VacationerALL, .CookingALL, .FashionALL {
+    padding:2%;
+    width: 33%;
+}
+
+.VacationerTitle, .CulinaryTitle, .FashionastaTitle {
+    text-align: center;
+}
+
+.AboutPic {
+    text-align:center;
 }
