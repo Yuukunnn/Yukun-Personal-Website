@@ -128,3 +128,13 @@ h2 {
     background-color: white;
     padding: 1%;
 }
+
+.form_row_layout button:active {
+    background-color: red;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
