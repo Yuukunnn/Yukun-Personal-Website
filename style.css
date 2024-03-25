@@ -106,3 +106,35 @@ h2 {
 .AboutPic {
     text-align:center;
 }
+
+.h1_submitted_page{
+   text-align: center;
+   margin: 10%; 
+}
+
+.contact_page_color {
+    background-color: rgb(251, 240, 226);
+}
+
+.contact_form_layout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.form_row_layout {
+    width: 25%;
+    background-color: white;
+    padding: 1%;
+}
+
+.form_row_layout button:active {
+    background-color: red;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+}
+

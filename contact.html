@@ -1,0 +1,52 @@
+<html> 
+    <head>
+        <title>Yukun Personal Site</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+
+    <body class="contact_page_color">
+
+        <script>
+        const form = document.querySelector('#form')
+        const submitButton = document.querySelector('#submit')
+
+        form.addEventListener('submit', (e) => {
+        submitButton.disabled = true
+         e.preventDefault()
+        window.location.href = window.location.origin + '/pagesubmitted.html'
+    })
+        </script>
+
+        <nav>
+            <a href="http://127.0.0.1:3000/home.html">Home</a>
+            <a href="http://127.0.0.1:3000/portfolio.html">Portfolio</a>
+            <a href="http://127.0.0.1:3000/about.html">About</a>
+            <a href="http://127.0.0.1:3000/contact.html"> Contact</a>
+        </nav>
+
+
+        <form class="contact_form_layout" action="pagesubmitted.html" target="_blank" id="form">
+
+            <div class="form_row_layout">
+                <label for="visitor-name">Your Name:</label>
+                <input type ="text" id="visitor-name" placeholder="name" required>
+            </div>
+
+            <div class="form_row_layout">
+                <label for="visitor-email">Email:</label>
+                <input type ="email" id="visitor-email" placeholder="email" required>
+            </div>
+
+            <div class="form_row_layout">
+                <label for="visitor-message">Message:</label>
+                <input type ="text" id="visitor-message" placeholder="typing..." required>
+            </div>
+            
+            <div class="form_row_layout">
+                <button id="submit" type="submit"> Submit </button>
+            </div>
+        </form>
+
+
+
+</html>
