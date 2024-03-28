@@ -10,12 +10,11 @@ nav {
     text-align:center;
     padding: 2% 0;
     margin: 2% 5%;
-    color: black;
     font-size: 35px;
     font-family:'Times New Roman', Times, serif
 }
 
-a {
+nav a {
     color:black;
     text-decoration: none;
 }
@@ -124,17 +123,31 @@ h2 {
 }
 
 .form_row_layout {
-    width: 25%;
+    width: 50vh;
     background-color: white;
     padding: 1%;
 }
 
-.form_row_layout button:active {
-    background-color: red;
-    color: white;
-}
-
 nav a:hover {
     background-color: white;
+}
+
+button:active {
+    background-color: rgb(251, 240, 226);
+    color: black;
+}
+
+
+@media(max-width:790px){
+    .AboutPageLayout {
+        display:grid;
+        justify-items:center;
+    }
+    .VacationerALL, .CookingALL, .FashionALL {
+        width: 60%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
